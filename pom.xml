@@ -16,7 +16,7 @@
         <module>springcloud-provider-hystrix-8001</module>
         <module>springcloud-hystrix-dashboard-9001</module>
         <module>springcloud-zuul-9527</module>
-        <module>springcloud-config-server-3344</module>
+<!--        <module>springcloud-config-server-3344</module>-->
 <!--        <module>springcloudconfigserver3345</module>-->
         <module>springcloud-config-cjl-server3366</module>
     </modules>
