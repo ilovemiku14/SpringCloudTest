@@ -1,0 +1,24 @@
+# yaml支持多文档块（将多个yaml文件放在一个yaml文件中）
+
+server:
+  port: 6001
+spring:
+  profiles:
+    active: test
+
+---
+server:
+  port: 6002
+spring:
+  profiles: test
+---
+server:
+  port: 6003
+spring:
+  profiles: dev
+
+---
+server:
+  port: 6004
+spring:
+  profiles: prod
